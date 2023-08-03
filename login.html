@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <header class="header-login">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a href="https://www.themehigh.com/" class="navbar-brand">
+                <img src="Images/ThemeHigh.svg" alt="" class="header-logo d-inline-block">
+              </a>
+              <!-- <button class="navbar-toogler"></button> -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="list-item"><a href="https://www.themehigh.com/plugins/" class="nav-a">plugins</a></li>
+                    <li class="list-item"><a href="#" class="navbar-a">Bundels</a></li>
+                    <li class="list-item"><a href="https://www.themehigh.com/docs/" class="navbar-a">Documentation</a></li>
+                    <li class="list-item"><a href="https://www.themehigh.com/docs/support/" class="navbar-a">Suppport</a></li>
+                    <li class="list-item"><a href="login.html" class="navbar-a" target="_blank">Login</a></li>
+                    <li class="list-item">
+                        <a href="" class="navbar-a">
+                            <i class="fa-solid fa-cart-shopping" ></i>
+                        <span class="icon-cartlogin" >0</span></i>
+                    </a>
+                </li>
+                </ul>
+              </div>
+            </nav>
+            <h1 class="entrytitle">Login</h1>
+         </div>
+    </header>
+
+    <div class="entry-content">
+        <div class="container py-5">
+            <form action="" id="edd_login_form" class="edd_form" method="post">
+                <fieldset>
+                    <legend>Log into your Account</legend>
+                    <p class=" edd-login-Username" >
+                        <label for="edd_user_login" class="label-login">Username or Email</label>
+                        <input type="text" name="edd_user_login" id="edd_user_login" class="edd_required edd_input">
+                    </p>
+                    <p class="edd-login-Password">
+                        <label for="edd_user_Pass" class="label-login">Password</label>
+                        <input type="password" name="edd_user_Pass" id="edd_user_Pass" class=" edd_Pass edd_required edd_input"> 
+                    </p>
+                    <p class="edd-login-remember">
+                        <label class="label-login">
+                        <input type="checkbox" name="rememeberme" id="rememeberme" value="forever">
+                         Remeber Me
+                        </label>
+                    </p>
+                    <p class="edd-login-submit">
+                        <input type="Submit" name="edd_user_login" id="edd-login-submit" class="edd_Submit" value="log In">
+                    </p>
+                    <p class="edd-lost-Password">
+                       <a href="#">Lost Passowrd?</a>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+<footer class="footer-wrapper">
+    <div class="container py-4">
+        <div class="footertoprow row ">
+            <div class="footertoprowcol1">
+                <a href="https://www.themehigh.com/">
+                    <img src="Images/ThemeHigh.svg" alt="themehigh" class="footer-logo">
+                </a>
+                <p class="footertoprowcol1p">We develop innovative WordPress plugins and themes for e-commerce and other WordPress websites.</p>
+            </div>
+            <div class="footertoprowcol2">
+                <h5 class="footertoprowcol2h5">Resources</h5>
+                <ul class="footertoprowcol1ul">
+                    <li>
+                        <a href="#">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestseller</a>
+                    </li>
+                    <li>
+                        <a href="#">Affiliate</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footertoprowcol3 footertoprowcol3T ">
+                <h5 class="footertoprowcol2h5">Policy Information</h5>
+                <ul class="footertoprowcol1ul">
+                    <li>
+                        <a href="#">Terms and conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="#">support policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Refund policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Licenses</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foootermidrow">
+            <div class="footermidrowcol1">
+                <h6 class="footermidrowcol1h6" >Security</h6>
+                <img src="Images/sectigo.png" class="footermidrowcol1img" alt="sectigo">
+            </div>
+            <div class="footermidrowcol2">
+                <h6 class="footermidrowcol2h6">Payment options</h6>
+                <ul class="footermidrowcol2ul">
+                    <li class="list-inline-item">
+                        <img src="Images/paypal.svg" class="footermidrowcol2img1" alt="paypal">
+                    </li>
+                    <li>
+                        <img src="Images/stripe.svg" class="footermidrowcol2img2" alt="stripe">
+                    </li>
+                </ul>
+        </div>
+        <div class="footerbottom ">
+            <div class="footerbottomcol1">
+                <p  class="footerbottomcol1p">&copy;2021 ThemeHigh. All rights reserved.</p>
+                <p class="footerbottomcol1p">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            </div>
+            <div class="footerbottomcol2">
+           <ul class="footerbottomcol2ul">
+            <li class="list-inline-iteml">
+                <a href="#">
+                    <img src="Images/icon-facebook.svg"class="footerbottomcol2img" alt="" width="22" height="22">
+                </a>
+            </li>
+            <li class="list-inline-iteml">
+                <a href="#">
+                    <img src="Images/icon-twitter.svg"class="footerbottomcol2img" alt="" width="22" height="22">
+                </a>
+            </li>
+            <li class="list-inline-iteml">
+                <a href="#">
+                    <img src="Images/icon-linkedin.svg"class="footerbottomcol2img" alt="" width="22" height="22">
+                </a>
+            </li>
+            <li class="list-inline-iteml">
+                <a href="#">
+                    <img src="Images/icon-youtube.svg"class="footerbottomcol2img" alt="" width="22" height="22">
+                </a>
+            </li>
+            
+           </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
